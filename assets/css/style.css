@@ -125,3 +125,19 @@ header img{
 
     position: absolute;
 }
+
+#why-visit{
+    height: 200px;
+    background-color: #FFBA49;
+    color: #fcfff7;
+    font-size: larger;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#why-visit h2{
+    color: #fcfff7;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
