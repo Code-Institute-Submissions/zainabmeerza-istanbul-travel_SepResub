@@ -141,3 +141,50 @@ header img{
     margin-bottom: 15px;
     padding-top: 20px;
 }
+
+/* introduction section */
+#intro{
+    height: 500px;
+}
+#right-about{
+    width: 33%;
+    float: right;
+   /* padding-top: 700px;
+    background: url('../images/right_intro.jpeg') no-repeat center center;
+    background-size: cover;*/
+}
+
+#left-about{
+    width: 33%;
+    float: left;
+   /* padding-top: 700px;
+    background: url('../images/left_intro.jpeg') no-repeat center center;
+    background-size: cover;*/
+
+}
+
+#center-about{
+    width: 33%;
+    margin: 0 auto;
+    
+    padding-top: 500px;
+    background: url('../images/center_intro.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#left-about p {
+    font-size: larger;
+    color: #011627;
+    margin-left: 60px;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+#right-about p{
+    font-size: larger;
+    color: #011627;
+    margin-right: 60px;
+    padding-top: 60px;
+    padding-left: 30px;
+    text-align: right;
+
+}
