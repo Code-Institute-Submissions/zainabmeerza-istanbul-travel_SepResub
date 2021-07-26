@@ -188,3 +188,14 @@ header img{
     text-align: right;
 
 }
+
+/* video section */
+#video{
+    height: 400px;
+    background-color: red;
+}
+iframe{
+    padding-top: 43px;
+    margin-left: 105px;
+    display: inline-block;
+}
