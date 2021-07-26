@@ -194,8 +194,13 @@ header img{
     height: 400px;
     background-color: red;
 }
-iframe{
+#video iframe{
     padding-top: 43px;
     margin-left: 105px;
     display: inline-block;
+}
+
+/* map section */
+#map iframe{
+    width: 100%;
 }
