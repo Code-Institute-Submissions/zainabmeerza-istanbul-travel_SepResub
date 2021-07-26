@@ -28,17 +28,18 @@ h1, h2 {
 }
 
 header img{
-    height: 120px;
+    height: 110px;
     margin-top: 20px;
 }
 
 #menu{
     font-size: 110%;
     text-transform: uppercase;
+    margin: 40px;
 }
 
 #menu, #logo, #title {
-    line-height: 240px;
+    line-height: 140px;
 }
 
 #menu li{
@@ -62,3 +63,41 @@ header img{
 .active {
     border-bottom: 3px solid #FFBA49;
 }
+
+#contact-us{
+    background-color: #D00000;
+    height: 50px;
+}
+
+.contact-icons{
+    text-align: right;
+}
+
+.contact-icons > li{
+    display: inline;  
+}
+
+.contact-icons i{
+    color: #fcfff7; 
+    margin-right: 30px;
+    font-size: 160%;
+    padding-top: 10px;
+
+}
+
+/* hero image */
+#hero-outer {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    height: 750px;
+    width: 100%;
+    background: url('../images/image3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
