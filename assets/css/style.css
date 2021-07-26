@@ -31,3 +31,34 @@ header img{
     height: 120px;
     margin-top: 20px;
 }
+
+#menu{
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+#menu, #logo, #title {
+    line-height: 240px;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    padding:10px;
+}
+
+#menu a:hover{
+    border: 1px solid #011627;
+    background-color: #FFBA49;
+}
+
+.active {
+    border-bottom: 3px solid #FFBA49;
+}
