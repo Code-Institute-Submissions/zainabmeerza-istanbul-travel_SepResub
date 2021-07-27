@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Roboto:wght@300&display=swap');
+/*@import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui";
+@import "@fancyapps/ui/dist/fancybox.css";*/
 
 * {
     margin: 0;
@@ -215,6 +217,7 @@ header img{
 /* map section */
 #map iframe{
     width: 100%;
+    margin-bottom: -5px;
 
 }
 
@@ -356,15 +359,18 @@ footer h5{
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 500px;
     position: absolute;
     left: 10%;
     padding: 30px;
+    
 }
+
 
 .signup-form h2{
     color: #fafafa;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .text-input{
@@ -375,10 +381,11 @@ footer h5{
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    display: inline;
 }
 
 .text-input:hover{
-    border-color: #f16c6b;
+    border-color: #FFBA49;
 }
 
 .join-button{
@@ -387,12 +394,161 @@ footer h5{
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #21A0A0;
     color: #fafafa;
     display: block;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
 }
 
 .join-button:hover{
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #21A0A0;
+    
+}
+
+/* ATTRACTIONS */
+.slidershow{
+    background-color: black;
+    width: 40%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.navigation{
+    position: absolute ;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #FFF;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.slides{
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+
+.slide{
+    width: 100%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: auto;
+    height: 400px;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -100%;
+}
+#r3:checked ~ .s1{
+    margin-left: -200%;
+}
+#r4:checked ~ .s1,.t1{
+    margin-left: -300%;
+}
+
+#r5:checked ~ .s2{
+    margin-left: 0;
+}
+#r6:checked ~ .s2{
+    margin-left: -100%;
+}
+#r7:checked ~ .s2{
+    margin-left: -200%;
+}
+#r8:checked ~ .s2,.t2{
+    margin-left: -300%;
+}
+
+#r9:checked ~ .s3{
+    margin-left: 0;
+}
+#r10:checked ~ .s3{
+    margin-left: -50%;
+}
+#r11:checked ~ .s3{
+    margin-left: -70%;
+}
+#r12:checked ~ .s3,.t3{
+    margin-left: -90%;
+}
+
+#r13:checked ~ .s4{
+    margin-left: 0;
+}
+#r14:checked ~ .s4{
+    margin-left: -100%;
+}
+#r15:checked ~ .s4{
+    margin-left: -200%;
+}
+#r16:checked ~ .s4,.t4{
+    margin-left: -300%;
+}
+
+#r17:checked ~ .s5{
+    margin-left: 0;
+}
+#r18:checked ~ .s5{
+    margin-left: -100%;
+}
+#r19:checked ~ .s5{
+    margin-left: -200%;
+}
+#r20:checked ~ .s5,.t5{
+    margin-left: -300%;
+}
+
+
+.slideshow-item-text{
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translateY(-50%);
+    background-color: #3333339f;
+    color: white;
+    padding: 10rem 5rem;
+}
+
+.slideshow-item-text h5{
+    font-size: 5rem;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 2.5rem;
+}
+
+.slideshow-item-text p{
+    font-size: 1.8rem;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: justify;
 }
