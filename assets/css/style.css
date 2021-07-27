@@ -265,6 +265,7 @@ footer{
     color: #fcfff7;
     padding-top: 30px;
     position: relative;
+    margin-bottom: 0;
 }
 
 footer li{
@@ -461,6 +462,19 @@ input[name="r"]{
     height: 400px;
 }
 
+
+#attractions-title{
+    height:200px;
+    background-color:#FFBA49;
+    margin-top: 180px;
+}
+#attractions-title h2{
+   text-align: center;
+   color: white;
+   font-size: 320%;
+   padding-top: 50px;
+}
+/* SLIDESHOW 1 - HAGIA SOPHIA */
 #r1:checked ~ .s1{
     margin-left: 0;
 }
@@ -474,6 +488,7 @@ input[name="r"]{
     margin-left: -300%;
 }
 
+/* SLIDESHOW 2 - BLUE MOSQUE */
 #r5:checked ~ .s2{
     margin-left: 0;
 }
@@ -487,6 +502,7 @@ input[name="r"]{
     margin-left: -300%;
 }
 
+/*SLIDESHOW 3 - BOSPHORUS */
 #r9:checked ~ .s3{
     margin-left: 0;
 }
@@ -500,6 +516,7 @@ input[name="r"]{
     margin-left: -90%;
 }
 
+/*SLIDESHOW 4 - GRAND BAZAAR */
 #r13:checked ~ .s4{
     margin-left: 0;
 }
@@ -513,6 +530,7 @@ input[name="r"]{
     margin-left: -300%;
 }
 
+/*SLIDESHOW 5 - BASILICA CISTERN */
 #r17:checked ~ .s5{
     margin-left: 0;
 }
@@ -526,29 +544,32 @@ input[name="r"]{
     margin-left: -300%;
 }
 
-
-.slideshow-item-text{
-    max-width: 50%;
-    position: absolute;
-    top: 50%;
-    left:0;
-    transform: translateY(-50%);
-    background-color: #3333339f;
-    color: white;
-    padding: 10rem 5rem;
+.gallery-left{
+    float: left;
+    width: 100%;
 }
 
-.slideshow-item-text h5{
-    font-size: 5rem;
-    font-family: 'Roboto',sans-serif;
-    letter-spacing: 3px;
-    margin-bottom: 2.5rem;
+.gallery-right{
+    float: right;
+    width: 100%;
 }
 
-.slideshow-item-text p{
-    font-size: 1.8rem;
-    font-family: 'Roboto',sans-serif;
-    letter-spacing: 1px;
-    font-weight: 300;
+.attractions-section h2{
+    float: right;
+    padding-top: 20px;
+    margin-right: 100px;
+    color: #011627;
+    font-size: 250%;
+    border-bottom: 1px solid #011627; 
+}
+
+.attractions-section p{
+    float: right;
+    width:40%;
+    clear: both;
+    font-size: 150%;
+    display: inline-flex;
+    padding-top: 30px;
+    padding-right: 180px;
     text-align: justify;
 }
