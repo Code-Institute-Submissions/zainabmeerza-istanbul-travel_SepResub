@@ -192,7 +192,7 @@ header img{
 /* video section */
 #video{
     height: 400px;
-    background-color: red;
+    background-image: linear-gradient(white, red);
 }
 #video iframe{
     padding-top: 43px;
@@ -203,4 +203,41 @@ header img{
 /* map section */
 #map iframe{
     width: 100%;
+}
+
+/* see more section */
+#see-more{
+    width: 100%;
+    background-size: cover;
+    background: url('../images/hotel4.jpg') no-repeat center center;
+}
+
+/* sign up go to form section */
+#sign-up{
+    height: 220px;
+    background-color: #FFBA49;
+    color: #fcfff7;
+    font-size: 180%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#sign-up h2{
+    color: #fcfff7;
+    font-size: 150%;
+}
+#sign-up a{
+    text-decoration: none;
+    font: Oswald, sans-serif;
+    color: #fcfff7;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 50px;
+    border: 5px solid #fcfff7;
+}
+
+#sign-up a:hover{
+    color: #FFBA49;
+    background-color:#fcfff7 ;
 }
