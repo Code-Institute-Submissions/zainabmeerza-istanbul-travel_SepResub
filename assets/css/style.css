@@ -85,6 +85,13 @@ header img{
 
 }
 
+.fa-facebook:hover,
+.fa-twitter-square:hover,
+.fa-youtube-square:hover,
+.fa-instagram:hover{
+    color: #FFBA49;
+}
+
 /* hero image */
 #hero-outer {
     height: 750px;
@@ -192,7 +199,7 @@ header img{
 /* video section */
 #video{
     height: 400px;
-    background-image: linear-gradient(white, red);
+    background-image: linear-gradient(white, #D00000);
 }
 #video iframe{
     padding-top: 43px;
@@ -205,26 +212,24 @@ header img{
     width: 100%;
 }
 
-/* see more section */
-#see-more{
-    width: 100%;
-    background-size: cover;
-    background: url('../images/hotel4.jpg') no-repeat center center;
-}
 
 /* sign up go to form section */
 #sign-up{
     height: 220px;
     background-color: #FFBA49;
     color: #fcfff7;
-    font-size: 180%;
+    font-size: 150%;
     text-align: center;
     padding-top: 20px;
 }
 
 #sign-up h2{
     color: #fcfff7;
-    font-size: 150%;
+    font-size: 160%;
+}
+#sign-up h3{
+    padding-bottom: 20px;
+    letter-spacing: 4px;
 }
 #sign-up a{
     text-decoration: none;
@@ -233,11 +238,85 @@ header img{
     font-weight: bold;
     text-transform: uppercase;
     padding: 20px;
-    margin-top: 50px;
     border: 5px solid #fcfff7;
 }
 
 #sign-up a:hover{
     color: #FFBA49;
     background-color:#fcfff7 ;
+}
+
+/* footer */
+footer{
+    height: 400px;
+    background-color: #D00000;
+    color: #fcfff7;
+    padding-top: 30px;
+    position: relative;
+}
+
+footer li{
+    padding:15px;
+    list-style: none;
+    letter-spacing: 2px;
+
+}
+footer a{
+    text-decoration: none;
+    color:#fcfff7;
+}
+footer h2{
+    color:#fcfff7;
+    margin-left: 30px;
+    font-size: 170%;
+    letter-spacing: 4px;
+}
+
+footer h3{
+    margin-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fcfff7;;
+    width: 70%;
+}
+#right{
+    width: 33%;
+    float: right;
+}
+
+#left{
+    width: 33%;
+    float: left;
+}
+#center{
+    width: 33%;
+    margin: 0 auto;
+}
+
+footer i{
+    font-size: 200%;
+}
+
+footer li:hover, footer a:hover{
+    color: #FFBA49;
+}
+
+#to-top{
+    background-color: #21A0A0;
+    position: absolute;
+    bottom: 0;
+    width: 33%;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#to-top h4{
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+#to-top i{
+    padding-left: 20px;
 }
