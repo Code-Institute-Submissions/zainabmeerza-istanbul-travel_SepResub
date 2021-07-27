@@ -159,7 +159,7 @@ header img{
     float: right;
     
     padding-top: 500px;
-    background: url('../images/test2.png') no-repeat center center;
+    background: url('../images/center_intro.jpeg') no-repeat center center;
     background-size: cover;
 
    
@@ -203,7 +203,8 @@ header img{
 /* video section */
 #video{
     height: 400px;
-    background-image: linear-gradient(white, #21A0A0);
+    /*background-image: linear-gradient( white, #21A0A0);*/
+    background-color: #21A0A0;
 }
 #video iframe{
     padding-top: 43px;
@@ -334,4 +335,8 @@ footer h5{
     right:550px;
     letter-spacing: 2px;
     font-size:10px
+}
+
+.gap{
+    height: 500px;
 }
