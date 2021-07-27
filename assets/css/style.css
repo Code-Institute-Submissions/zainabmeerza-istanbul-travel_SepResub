@@ -154,8 +154,15 @@ header img{
     height: 500px;
 }
 #right-about{
+
     width: 33%;
     float: right;
+    
+    padding-top: 500px;
+    background: url('../images/test2.png') no-repeat center center;
+    background-size: cover;
+
+   
    /* padding-top: 700px;
     background: url('../images/right_intro.jpeg') no-repeat center center;
     background-size: cover;*/
@@ -173,10 +180,7 @@ header img{
 #center-about{
     width: 33%;
     margin: 0 auto;
-    
-    padding-top: 500px;
-    background: url('../images/center_intro.jpeg') no-repeat center center;
-    background-size: cover;
+   
 }
 
 #left-about p {
@@ -186,7 +190,7 @@ header img{
     padding-top: 60px;
     padding-right: 30px;
 }
-#right-about p{
+#center-about p{
     font-size: larger;
     color: #011627;
     margin-right: 60px;
@@ -199,7 +203,7 @@ header img{
 /* video section */
 #video{
     height: 400px;
-    background-image: linear-gradient(white, #D00000);
+    background-image: linear-gradient(white, #21A0A0);
 }
 #video iframe{
     padding-top: 43px;
@@ -212,6 +216,9 @@ header img{
     width: 100%;
 }
 
+.fix-gap{
+    margin-top: 0px;
+}
 
 /* sign up go to form section */
 #sign-up{
@@ -243,7 +250,7 @@ header img{
 
 #sign-up a:hover{
     color: #FFBA49;
-    background-color:#fcfff7 ;
+    background-color:#fcfff7;
 }
 
 /* footer */
