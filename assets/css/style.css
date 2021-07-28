@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Roboto:wght@300&display=swap');
 /*@import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui";
-@import "@fancyapps/ui/dist/fancybox.css";*/
+@import "@fancyapps/ui/dist/fancybox.css"; */
 
 * {
     margin: 0;
@@ -463,12 +463,12 @@ input[name="r"]{
 }
 
 
-#attractions-title{
+#page-title{
     height:200px;
     background-color:#FFBA49;
     margin-top: 180px;
 }
-#attractions-title h2{
+#page-title h2{
    text-align: center;
    color: white;
    font-size: 320%;
@@ -507,13 +507,13 @@ input[name="r"]{
     margin-left: 0;
 }
 #r10:checked ~ .s3{
-    margin-left: -50%;
+    margin-left: -100%;
 }
 #r11:checked ~ .s3{
-    margin-left: -70%;
+    margin-left: -200%;
 }
 #r12:checked ~ .s3,.t3{
-    margin-left: -90%;
+    margin-left: -300%;
 }
 
 /*SLIDESHOW 4 - GRAND BAZAAR */
@@ -557,7 +557,7 @@ input[name="r"]{
 .attractions-section h2{
     float: right;
     padding-top: 20px;
-    margin-right: 100px;
+    margin-right: 180px;
     color: #011627;
     font-size: 250%;
     border-bottom: 1px solid #011627; 
@@ -573,3 +573,13 @@ input[name="r"]{
     padding-right: 180px;
     text-align: justify;
 }
+/* GALLERY */
+#gallery{
+    height: 500px;
+}
+#gallery-bg{
+    height:2500px;
+}
+/*DINING*/
+/* MEET THE TEAM INFO */
+
