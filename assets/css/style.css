@@ -463,17 +463,18 @@ input[name="r"]{
 }
 
 
-#page-title{
+.page-title{
     height:200px;
     background-color:#FFBA49;
     margin-top: 180px;
 }
-#page-title h2{
+.page-title h2{
    text-align: center;
    color: white;
    font-size: 320%;
    padding-top: 50px;
 }
+
 /* SLIDESHOW 1 - HAGIA SOPHIA */
 #r1:checked ~ .s1{
     margin-left: 0;
@@ -590,6 +591,9 @@ input[name="r"]{
 #gallery-bg{
     height:1025px;
 }
+
+
+
 /*DINING*/
 /* MEET THE TEAM INFO */
 
