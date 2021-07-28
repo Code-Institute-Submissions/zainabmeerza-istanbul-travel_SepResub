@@ -575,10 +575,20 @@ input[name="r"]{
 }
 /* GALLERY */
 #gallery{
-    height: 500px;
+    height: 1025px;
+}
+#extra{
+    height: 10px;
+    background-color: white;
+}
+
+#gallery img{
+    padding: 0px;
+    margin: 0;
+    
 }
 #gallery-bg{
-    height:2500px;
+    height:1025px;
 }
 /*DINING*/
 /* MEET THE TEAM INFO */
