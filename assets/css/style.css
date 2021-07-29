@@ -125,6 +125,7 @@ header img{
 
     padding-top: 40px;
     padding-left: 10px;
+    padding-right: 10px;
 
    
 
@@ -210,7 +211,7 @@ header img{
 }
 #video iframe{
     padding-top: 43px;
-    margin-left: 105px;
+    margin-left: 6%;
     display: inline-block;
 }
 
@@ -437,6 +438,7 @@ footer h5{
 
 .bar:hover{
     background: #FFF;
+    
 }
 
 input[name="r"]{
@@ -578,21 +580,29 @@ input[name="r"]{
 #gallery{
     height: 1025px;
 }
-#extra{
-    height: 10px;
+.extra{
+    height: 20px;
     background-color: white;
 }
 
 #gallery img{
     padding: 0px;
     margin: 0;
+ 
     
 }
 #gallery-bg{
     height:1025px;
 }
 
-
+.not-complete{
+    height:500px;
+    background-color: white;
+}
+.progress{
+    text-align: center;
+    padding-bottom: 450px;
+}
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -605,22 +615,67 @@ input[name="r"]{
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-    
+    footer h5{
+        right: 30%;
+    }
 
+    #why-visit{
+        padding-bottom: 10px;
+    }
+
+    #center-about p{
+        font-size: 120%;
+        margin-right: 9%;
+        padding-top: 9%;
+        padding-left: 0px;
+        text-align: left;
+    }
+    #left-about p{
+        font-size: 120%;
+        margin-left: 9%;
+        padding-top: 9%;
+        padding-right: 0px;
+    }
+    #menu{
+        clear:both;
+    }
+    #cover-text{
+        right: 25%;
+    }
 }
+
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+    
     #hero-image{
         height: 300px;
     }
     #hero-outer{
         height: 300px;
     }
+
+    #menu li{
+        float: none;
+
+    }
+    #menu {
+        line-height: 180%;
+    }
+    #menu a {
+        padding: 0px;
+    }
+    #menu a:hover{
+        border: none;
+        background-color: transparent;
+    }
+    
+
+    
     #cover-text {
         font-size: 150%;
-        bottom: 30px;
-        right:30px;
+        bottom: 10%;
+        right:4%;
         width: 300px;
     }
     .contact-icons{
@@ -633,9 +688,10 @@ input[name="r"]{
     }
 
     #why-visit{
-        height: 300px;
+        height: fit-content;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 20px;
 
     }
     #why-visit p{
@@ -648,11 +704,10 @@ input[name="r"]{
 
     h1{
         letter-spacing: 3px;
-        text-align: center;
     }
     #title{
-        margin-left: 0px;
-        line-height: 80px;
+        margin-left: 2%;
+        line-height: 150px;
         font-size: 210%;
 
     }
@@ -680,25 +735,33 @@ input[name="r"]{
         margin-left: -95%;
         margin-right: 0;
         text-align: left;
-        width: 305px;
+        width: 230%;
     }
 
     #video {
-       height: 430px;
+       height: fit-content;
        padding-left: 0px;
     }
 
     #video iframe{
-        margin-left: 40px;
+        
         height: fit-content;
         width: fit-content;
+        /*margin-right: 10%;*/
+        margin-left: 0;
+        margin-right: 0;
+
+        padding: 9px;
+        margin: 0 9% 0% 9%;
     }
 
     #sign-up{
-        height: 280px;
+        height: fit-content;
         font-size: 110%;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 55px;
+        
     }
     footer{
         height: fit-content;
@@ -720,9 +783,184 @@ input[name="r"]{
     }
     footer h5{
         bottom: 80px;
-        right:20px;
+        /*right: 50px;*/
+        position: relative;
+        left: 1%;
+        text-align: center;
     }
     #to-top{
         width: 40%;
     }
+
+    #to-top i {
+        padding-left: 10px;
+    }
+
+    header img{
+        position: absolute;
+        right: 1%;
+    }
+
+    #gallery {
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+    #gallery img {
+        height: 100px;
+    
+    }
+    .page-title{
+        margin-top: 0px;
+        
+    }
+    .page-title h2 {
+        font-size: 200%;
+        padding-top: 30px;
+    }
+    .attractions-section h2{
+        margin-right: 2%;
+    }
+    .slidershow{
+        width: 100%;
+    }
+    .attractions-section p{
+        float: none;
+        width: auto;
+        font-size: 100%;
+        padding: 20px;
+        display: block;
+    }
 }
+/* NAV LINKS*/
+
+/* NAVIGATION CSS */
+/*
+
+nav a:hover, a:active{
+    background-color: #fcfff7;
+    border: 1px solid #011627;
+    background-color: #FFBA49;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 220px ;
+    background-color: #fcfff7 ;
+}
+
+.logo{
+    color: #011627;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 20px;
+    font-size: 25px;
+    text-indent: -100px;
+}
+
+.nav img{
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around; 
+    width: 45%;
+    margin-right: 45px;
+    
+}
+
+.nav-links li{
+    list-style: none;
+
+}
+
+.nav-links a{
+    color:#011627;
+    text-decoration:none ;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
+
+.mobile {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px){
+    .nav-links {
+        width: 60%;  
+    }
+}
+
+@media screen and (max-width: 768px){
+    #hero-outer{
+        overflow-x: hidden;
+        z-index: -1;
+    }
+    
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #fcfff7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 2;
+    }
+
+    .nav-links li{
+        opacity: 0;
+        z-index: 2;
+    }
+    .mobile{
+        display: block;
+        z-index: 2;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+*/
+/* an animation */
+/*
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+} */
