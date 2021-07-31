@@ -1645,46 +1645,7 @@ nav{
     }
     
 }
-/*
-@media screen and (width: 2304px){
-    #contact-us i{
-        font-size: 200%;
-    }
-    nav{
-        font-size: 120%;
-        margin-top: 40px;
-    }
-    #cover-text{
-        right:27%;
-    }
-    #right-about{
-        padding-top: 655px;
-    }
-    #why-visit{
-        padding-left: 130px;
-        padding-right: 130px;
-        font-size: 200%;
-    }
-    #intro p{
-        font-size: 200%;
-    }
-    #center-about p{
-        margin-right: 50px;
-    }
-    #left-about p{
-        margin-left: 50px;
-    }
-    #sign-up{
-        font-size: 200%;
-    }
-    footer h5{
-        font-size: 100%;
-        right: 30%;
-    }
-    #to-top{
-        width: 26%;
-    }
-}*/
+
 /* XXL screens */ /*comment*/
 /* Make most elements and text bigger to take up more of the screen */
 
