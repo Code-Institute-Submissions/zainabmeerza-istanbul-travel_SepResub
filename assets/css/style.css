@@ -69,7 +69,8 @@ header img{
 
 #contact-us{
     background-color: #D00000;
-    height: 50px;
+    height: fit-content;
+    padding-bottom: 10px;
 }
 
 .contact-icons{
@@ -1638,4 +1639,89 @@ nav{
         width: 26%;
     }
     
+}
+
+/* XXL screens */
+/* Make most elements and text bigger to take up more of the screen */
+
+@media screen and (min-width: 2440px){
+    #hero-image{
+        height: 1000px;
+    }
+    #contact-us i{
+        font-size: 300%;
+    }
+    .topnav a{
+        font-size: 40px;
+    }
+    #title{
+        font-size: 600%;
+    }
+    #cover-text{
+        right:26%;
+        font-size: 350%;
+        width: 700px;
+        bottom: 300px;
+    }
+    #why-visit {
+        padding-left: 200px;
+        padding-right: 200px;
+        font-size: 250%;
+    }
+    #intro{
+        font-size: 130%;
+    }
+    #right-about {
+        padding-top: 890px;
+    }
+    #video iframe{
+        height: 950px;
+    }
+    #map iframe{
+        height: 700px;
+    }
+    #sign-up {
+        font-size: 250%;
+    }
+    footer{
+        font-size: 160%;
+    }
+    footer h5{
+        right: 40%;
+    }
+    #to-top{
+        padding-bottom: 10px;
+    }
+    .attractions-section p{
+        font-size: 300%;
+        margin-right: 80px;
+    }
+    .attractions-section h2{
+        font-size: 400%;
+        padding-top: 0px;
+        margin-right: 100px;
+        padding-top: 50px;
+    }
+    .slides{
+        height:900px;
+    }
+    .slide img{
+        height: 900px;
+    }
+    .page-title h2{
+        font-size: 500%;
+        padding-top: 1%;
+    }
+    #gallery img{
+        height: 350px;
+        padding: 5px;
+    }
+    .form-section{
+        height: 1100px;
+    }
+    .signup-form{
+        max-width: 600px;
+        font-size: 200%;
+    }
+
 }
