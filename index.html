@@ -48,28 +48,22 @@
         </a>
 
         <nav>
-            <ul id="menu">
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-
-                <li>
-                    <a href="dining.html">Dining</a>
-                </li>
-
-                <li>
-                    <a href="lodging.html">Lodging</a>
-                </li>
-
-                <li>
-                    <a href="attractions.html">Attractions</a>
-                </li>
-
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>  
+            <!-- Code for navbar found on W3 school -->
+           
+        
+               <div class="container menu">
+                  <div class="topnav" id="myTopnav">
+                     <a href="index.html" class="active">Home</a>
+                     <a href="attractions.html">Attractions</a>
+                     <a href="lodging.html">Lodging</a>
+                     <a href="dining.html">Dining</a>
+                     <a href="gallery.html">Gallery</a>
+                     <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                     <i class="fa fa-bars"></i><span class="visually_hidden">Menu button</span></a>
+                  </div>
+               </div>
+            
+         </nav>
 
     </header>
 
@@ -132,10 +126,10 @@
     </section>
 
     <section id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7A1q7v4btbk"
+        <iframe id="left-video" width="560" height="315" src="https://www.youtube.com/embed/7A1q7v4btbk"
          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
          allowfullscreen></iframe>
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/eV6lTEY95yY" 
+         <iframe id="right-video" width="560" height="315" src="https://www.youtube.com/embed/eV6lTEY95yY" 
          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
          allowfullscreen></iframe> 
     </section>
@@ -207,7 +201,10 @@
     <script src="https://kit.fontawesome.com/3691efe897.js" crossorigin="anonymous"></script>
     <!-- fancy box script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <!-- responsive nav bar -->
+    <script src="nav-bar.js"></script>
 </body>
 
 </html>

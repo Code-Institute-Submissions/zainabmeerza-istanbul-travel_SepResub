@@ -34,30 +34,30 @@ header img{
     margin-top: 20px;
 }
 
-#menu{
+.menu{
     font-size: 110%;
     text-transform: uppercase;
     margin: 40px;
 }
 
-#menu, #logo, #title {
+.menu, #logo, #title {
     line-height: 140px;
 }
 
-#menu li{
+.menu li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a{
+.menu a{
     text-decoration: none;
     font-weight: bold;
     color: inherit;
     padding:10px;
 }
 
-#menu a:hover{
+.menu a:hover{
     border: 1px solid #011627;
     background-color: #FFBA49;
 }
@@ -205,15 +205,17 @@ header img{
 
 /* video section */
 #video{
-    height: 400px;
+    height: fit-content;
+    padding: 20px;
     /*background-image: linear-gradient( white, #21A0A0);*/
     background-color: #21A0A0;
+    text-align: center;
 }
 #video iframe{
-    padding-top: 43px;
-    margin-left: 6%;
     display: inline-block;
+    padding: 20px;
 }
+
 
 /* map section */
 #map iframe{
@@ -466,6 +468,7 @@ input[name="r"]{
 
 
 .page-title{
+    clear: both;
     height:200px;
     background-color:#FFBA49;
     margin-top: 180px;
@@ -578,8 +581,11 @@ input[name="r"]{
 }
 /* GALLERY */
 #gallery{
-    height: 1025px;
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
 }
+
 .extra{
     height: 20px;
     background-color: white;
@@ -831,136 +837,252 @@ input[name="r"]{
         display: block;
     }
 }
-/* NAV LINKS*/
 
-/* NAVIGATION CSS */
-/*
+/* CSS code for Navbar styling found on W3 schools */
 
-nav a:hover, a:active{
-    background-color: #fcfff7;
-    border: 1px solid #011627;
-    background-color: #FFBA49;
-    
+.container {
+	margin: 20px;
+	width: auto;
+	overflow: hidden;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 220px ;
-    background-color: #fcfff7 ;
+.topnav {
+	overflow: hidden;
+    margin-right: 50px;
 }
 
-.logo{
-    color: #011627;
+.topnav a {
+	display: inline;
+	color: black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: 20px;
-    font-size: 25px;
-    text-indent: -100px;
+    margin-left: 20px;
 }
 
-.nav img{
-    display: flex;
+.topnav .icon {
+	display: none;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: space-around; 
-    width: 45%;
-    margin-right: 45px;
-    
+nav{
+    display: inline-block;
+    float: right;
 }
 
-.nav-links li{
-    list-style: none;
+/* Media Queries */
+
+/* Small mobile screens */
+
+@media screen and (min-width: 370px) and (max-width: 425px) {
+	.bg-img {
+		min-height: 200px;
+		width: 100%;
+		height: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a {
+		float: right;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	#home_container {
+		font-size: 15px;
+	}
+
+	.list_heading {
+		font-size: 15px;
+	}
+
+	#my_last_trip_img {
+		max-width: 100%;
+		min-height: 200px;
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: block;
+		clear: both;
+		padding: 0;
+	}
+
+	#sri_lanka_map {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.sub_section_heading {
+		font-size: 15px;
+	}
+}
+
+/* Mid mobile - Large mobile screens */
+
+@media screen and (min-width: 426px) and (max-width: 520px) {
+
+	.list_heading {
+		font-size: 16px;
+	}
+
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a {
+		float: right;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	.sub_section_heading {
+		font-size: 15px;
+	}
+
+	.fas,
+	.far {
+		font-size: 15px;
+	}
 
 }
 
-.nav-links a{
-    color:#011627;
-    text-decoration:none ;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 10px;
-    
+/* Media Queries */
+
+/* Extra-small mobile screens */
+
+@media screen and (max-width: 369px) {
+	#main_heading {
+		font-size: 25px;
+	}
+
+	.sub_heading,
+	.section_heading {
+		font-size: 30px;
+	}
+
+	.sub_section_heading {
+		font-size: 15px;
+	}
+
+	.bg-img {
+		min-height: 200px;
+		width: 100%;
+		height: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a {
+		float: right;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	#home_container {
+		font-size: 14px;
+	}
+
+	#my_last_trip_img {
+		background-size: contain;
+		margin-bottom: -50px;
+		margin-top: -50px;
+	}
+
+	.list_heading {
+		font-size: 15px;
+	}
+
+	.essentials_list {
+		font-size: 15px;
+	}
+
+	.footer-basic .social {
+		padding-bottom: 0;
+	}
 }
 
-.mobile {
-    display: none;
-    cursor: pointer;
-}
+/* Hides any element visually but provides information for screen readers */
+/* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
 
-.mobile div{
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 5px;
-    transition: all 0.3s ease;
+.visually_hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
-
-@media screen and (max-width: 1024px){
-    .nav-links {
-        width: 60%;  
-    }
-}
-
-@media screen and (max-width: 768px){
-    #hero-outer{
-        overflow-x: hidden;
-        z-index: -1;
-    }
-    
-    .nav-links{
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-color: #fcfff7;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-        z-index: 2;
-    }
-
-    .nav-links li{
-        opacity: 0;
-        z-index: 2;
-    }
-    .mobile{
-        display: block;
-        z-index: 2;
-    }
-}
-
-.nav-active{
-    transform: translateX(0%);
-}
-*/
-/* an animation */
-/*
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-
-    }
-}
-
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2{
-    opacity: 0;
-}
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px, -6px);
-} */
