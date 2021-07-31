@@ -1422,6 +1422,9 @@ nav{
         right: 200px;
         font-size: 13px;
     }
+    footer{
+        font-size:140%;
+    }
     #to-top{
         width: 50%;
     }
