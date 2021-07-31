@@ -1534,9 +1534,20 @@ nav{
         padding: 50px 10px 80px 10px;
     }
     #left, #right, #center{
-        width: 100%;
-        float: none;
-        padding-bottom: 100px;
+        width: 33%;
+        padding-bottom: 50px;
+    }
+
+    #left{
+        float: left;
+    }
+
+    #right{
+        float: right;
+    }
+
+    #center{
+        margin: 0px auto;
     }
     footer h2{
         margin-left: 10px;
@@ -1547,10 +1558,11 @@ nav{
         font-size: 13px;
     }
     footer{
-        font-size:140%;
+        font-size:130%;
+        padding-bottom: 200px;
     }
     #to-top{
-        width: 30%;
+        width: 28%;
         padding-bottom: 10px;
     }
 
@@ -1580,4 +1592,9 @@ nav{
     .form-section{
         clear: both;
     }
+}
+/* Extra large desktop screens */
+
+@media screen and (min-width: 1440px){
+
 }
