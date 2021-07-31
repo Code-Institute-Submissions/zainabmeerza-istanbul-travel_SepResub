@@ -1023,6 +1023,7 @@ nav{
 	} 
 	
 }
+
 /* Small mobile screens */
 
 @media screen and (min-width: 370px) and (max-width: 425px){
@@ -1339,7 +1340,7 @@ nav{
 
 }
 
-/* large tablet screens */
+/* large tablet screens */ /*
 @media screen and (max-width: 768px){
 
     #title, #logo, .menu{
@@ -1457,7 +1458,127 @@ nav{
         width:768px;
         height: 600px;
     }
+}*/
+
+@media screen and (max-width: 768px){
+
+    #title, #logo, .menu{
+        line-height: 70px;
+    }
+    .topnav{
+        margin-left: 80px;
+    }
+    #title h1{
+        text-align: right;
+        margin-right: 20px;
+        clear: both;
+    }
+    #title{
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    #logo{
+        height:70px;
+        top: 140px;
+        right: 40px;
+    }
+
+    nav{
+        float: none;
+    }
+    .container{
+        margin: 0px 0px 20px 0px;
+    }
+    #hero-image{
+        height: 500px;
+    }
+    #cover-text{
+        font-size: 120%;
+        bottom: 100px;
+        right: -20%;
+        padding-right: 9%;
+    }
+    #why-visit{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #left-about, #right-about, #center-about{
+        width: 100%;
+        float: none;
+    }
+    #left-about{
+        padding-bottom: 25px;
+    }
+    #center-about p{
+        margin-right: 30px;
+    }
+    #left-about p{
+        margin-left: 30px;
+    }
+    #video iframe{
+        width: 97%;
+        height: 200px;
+        padding: 20px 0px 20px 0px;
+    }
+    #video{
+        padding: 0px;
+    }
+    #sign-up{
+        font-size: 100%;
+        padding: 50px 10px 80px 10px;
+    }
+    #left, #right, #center{
+        width: 100%;
+        float: none;
+        padding-bottom: 120px;
+    }
+    footer h2{
+        margin-left: 10px;
+    }
+    footer h5{
+        bottom: 85px;
+        right: 0px;
+        font-size: 10px;
+        text-align: center;
+    }
+    footer{
+        font-size:100%;
+    }
+    #to-top{
+        width: 50%;
+    }
+
+    .page-title h2{
+        font-size: 200%;
+        padding-top: 10%;
+    }
+    .page-title{
+        margin-top: 0px;
+    }
+    .attractions-section p{
+        float: none;
+        width: auto;
+        clear: both;
+        font-size: 130%;
+        padding: 30px;
+        text-align: justify;
+    }
+    .attractions-section h2{
+        font-size: 190%;
+        margin-right: 30px;
+    }
+    .slidershow{
+        width: 100%;
+        height: 600px;
+    }
+    .slide img{
+        width:768px;
+        height: 600px;
+    }
 }
+
+
 
 /* Desktop screens */
 
