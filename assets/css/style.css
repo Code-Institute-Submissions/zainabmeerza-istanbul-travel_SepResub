@@ -160,7 +160,7 @@ header img{
 
     width: 33%;
     float: right;
-    
+   
     padding-top: 475px;
     background: url('../images/center_intro.jpeg') no-repeat center center;
     background-size: cover;
@@ -1677,7 +1677,7 @@ nav{
         font-size: 130%;
     }
     #right-about {
-        padding-top: 475px;
+       padding-top: 890px;
     }
     #video iframe{
         height: 950px;
