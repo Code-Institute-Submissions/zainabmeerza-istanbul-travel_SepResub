@@ -1618,6 +1618,7 @@ nav{
     }
     #right-about{
         padding-top: 475px;
+        
     }
     #why-visit{
         padding-left: 130px;
@@ -1681,7 +1682,7 @@ nav{
         font-size: 130%;
     }
     #right-about {
-        padding-top: 890px;
+        padding-top: 475px;
     }
     #video iframe{
         height: 950px;
