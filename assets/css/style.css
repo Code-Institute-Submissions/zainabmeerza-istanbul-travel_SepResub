@@ -27,6 +27,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     margin-left: 30px;
+    text-decoration: none;
 }
 
 header img{
@@ -96,7 +97,7 @@ header img{
 
 /* hero image */
 #hero-outer {
-    height: 750px;
+    height: fit-content;
     width: 100%;
     overflow: hidden;
 
@@ -137,13 +138,14 @@ header img{
 }
 
 #why-visit{
-    height: 200px;
+    height: fit-content;
     background-color: #FFBA49;
     color: #fcfff7;
     font-size: larger;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 30px;
 }
 
 #why-visit h2{
@@ -154,14 +156,15 @@ header img{
 
 /* introduction section */
 #intro{
-    height: 500px;
+    height: fit-content;
+    padding-bottom: 60px;
 }
 #right-about{
 
     width: 33%;
     float: right;
     
-    padding-top: 500px;
+    padding-top: 475px;
     background: url('../images/center_intro.jpeg') no-repeat center center;
     background-size: cover;
 
@@ -230,7 +233,8 @@ header img{
 
 /* sign up go to form section */
 #sign-up{
-    height: 220px;
+    height: fit-content;
+    padding-bottom: 40px;
     background-color: #FFBA49;
     color: #fcfff7;
     font-size: 150%;
@@ -263,7 +267,7 @@ header img{
 
 /* footer */
 footer{
-    height: 400px;
+    height: fit-content;
     background-color: #D00000;
     color: #fcfff7;
     padding-top: 30px;
@@ -618,7 +622,7 @@ input[name="r"]{
    
 }
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 950px wide and down *//*
 @media screen and (max-width: 950px){
 
     footer h5{
@@ -651,7 +655,7 @@ input[name="r"]{
 }
 
 
-/* For small screen sizes 800px and down */
+/* For small screen sizes 800px and down */ /*
 @media screen and (max-width: 800px) {
     
     #hero-image{
@@ -753,7 +757,6 @@ input[name="r"]{
         
         height: fit-content;
         width: fit-content;
-        /*margin-right: 10%;*/
         margin-left: 0;
         margin-right: 0;
 
@@ -789,7 +792,6 @@ input[name="r"]{
     }
     footer h5{
         bottom: 80px;
-        /*right: 50px;*/
         position: relative;
         left: 1%;
         text-align: center;
@@ -836,7 +838,7 @@ input[name="r"]{
         padding: 20px;
         display: block;
     }
-}
+} */
 
 /* CSS code for Navbar styling found on W3 schools */
 
@@ -873,20 +875,86 @@ nav{
 }
 
 /* Media Queries */
+/* Extra-small mobile screens */
+
+@media screen and (max-width: 369px) {
+    #title, #logo, .menu{
+        line-height: 50px;
+    }
+    #title h1{
+        text-align: right;
+        margin-right: 20px;
+        clear: both;
+    }
+    #title{
+        margin-left: 4px;
+        margin-top: 25px;
+    }
+    #logo{
+        position: relative;
+        top:-30px;
+        float: right;
+    }
+    .container{
+        margin: 0px 0px 20px 0px;
+    }
+    #hero-image{
+        height: 500px;
+    }
+    #cover-text{
+        font-size: 120%;
+        bottom: 80px;
+        right: -13%;
+    }
+    #why-visit{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #left-about, #right-about, #center-about{
+        width: 100%;
+        float: none;
+    }
+    #left-about{
+        padding-bottom: 25px;
+    }
+    #center-about p{
+        margin-right: 30px;
+    }
+    #left-about p{
+        margin-left: 30px;
+    }
+    #video iframe{
+        width: auto;
+        height: auto;
+        padding: 20px 0px 20px 0px;
+    }
+    #video{
+        padding: 0px;
+    }
+    #sign-up{
+        font-size: 130%;
+        padding-bottom: 50px;
+    }
+    #left, #right, #center{
+        width: 100%;
+        float: none;
+        padding-bottom: 100px;
+    }
+    footer h2{
+        margin-left: 10px;
+    }
+    #to-top{
+        width: 50%;
+    }
+}
+
+
+
+
 
 /* Small mobile screens */
 
-@media screen and (min-width: 370px) and (max-width: 425px) {
-	.bg-img {
-		min-height: 200px;
-		width: 100%;
-		height: auto;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		position: relative;
-	}
-
+@media screen and (min-width: 320px) and (max-width: 425px) {
 	.topnav a:not(:first-child) {
 		display: none;
 	}
@@ -916,37 +984,11 @@ nav{
 		text-align: left;
 	}
 
-	#home_container {
-		font-size: 15px;
-	}
-
-	.list_heading {
-		font-size: 15px;
-	}
-
-	#my_last_trip_img {
-		max-width: 100%;
-		min-height: 200px;
-		background-position: right;
-		background-repeat: no-repeat;
-		background-size: cover;
-		display: block;
-		clear: both;
-		padding: 0;
-	}
-
-	#sri_lanka_map {
-		max-width: 100%;
-		text-align: center;
-	}
-
-	.sub_section_heading {
-		font-size: 15px;
-	}
+	
 }
 
 /* Mid mobile - Large mobile screens */
-
+/*
 @media screen and (min-width: 426px) and (max-width: 520px) {
 
 	.list_heading {
@@ -992,11 +1034,11 @@ nav{
 	}
 
 }
-
+*/
 /* Media Queries */
 
 /* Extra-small mobile screens */
-
+/*
 @media screen and (max-width: 369px) {
 	#main_heading {
 		font-size: 25px;
@@ -1072,7 +1114,7 @@ nav{
 		padding-bottom: 0;
 	}
 }
-
+*/
 /* Hides any element visually but provides information for screen readers */
 /* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
 
