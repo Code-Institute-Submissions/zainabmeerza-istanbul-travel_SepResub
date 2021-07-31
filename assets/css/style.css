@@ -58,10 +58,6 @@ header img{
     padding:10px;
 }
 
-/*.menu a:hover{
-    border: 1px solid #011627;
-    background-color: #FFBA49;
-} */
 
 .active {
     border-bottom: 3px solid #FFBA49;
@@ -375,7 +371,6 @@ footer h5{
     
 }
 
-
 .signup-form h2{
     color: #fafafa;
     margin-bottom: 20px;
@@ -614,232 +609,7 @@ input[name="r"]{
     text-align: center;
     padding-bottom: 450px;
 }
-/* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-  
-
-   
-}
-
-/* For medium screen sizes from 950px wide and down *//*
-@media screen and (max-width: 950px){
-
-    footer h5{
-        right: 30%;
-    }
-
-    #why-visit{
-        padding-bottom: 10px;
-    }
-
-    #center-about p{
-        font-size: 120%;
-        margin-right: 9%;
-        padding-top: 9%;
-        padding-left: 0px;
-        text-align: left;
-    }
-    #left-about p{
-        font-size: 120%;
-        margin-left: 9%;
-        padding-top: 9%;
-        padding-right: 0px;
-    }
-    #menu{
-        clear:both;
-    }
-    #cover-text{
-        right: 25%;
-    }
-}
-
-
-/* For small screen sizes 800px and down */ /*
-@media screen and (max-width: 800px) {
-    
-    #hero-image{
-        height: 300px;
-    }
-    #hero-outer{
-        height: 300px;
-    }
-
-    #menu li{
-        float: none;
-
-    }
-    #menu {
-        line-height: 180%;
-    }
-    #menu a {
-        padding: 0px;
-    }
-    #menu a:hover{
-        border: none;
-        background-color: transparent;
-    }
-    
-
-    
-    #cover-text {
-        font-size: 150%;
-        bottom: 10%;
-        right:4%;
-        width: 300px;
-    }
-    .contact-icons{
-        font-size: 110%;
-        padding-top: 2px;
-    }
-
-    #why-visit h2{
-        font-size: 100%;
-    }
-
-    #why-visit{
-        height: fit-content;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-
-    }
-    #why-visit p{
-        font-size: 90%;
-        
-    }
-    header img{
-        height: 100px;
-    }
-
-    h1{
-        letter-spacing: 3px;
-    }
-    #title{
-        margin-left: 2%;
-        line-height: 150px;
-        font-size: 210%;
-
-    }
-    #left-about{
-        width:100%;
-    }
-    #right-about{
-        width:100%;
-
-    }
-    #intro{
-        height: fit-content;
-    }
-
-    #left-about p {
-        margin-left: 30px;
-        padding-top: 15px;
-        padding-right: 30px;
-        padding-bottom: 15px;
-    }
-    #center-about p {
-        display: inline-block;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        margin-left: -95%;
-        margin-right: 0;
-        text-align: left;
-        width: 230%;
-    }
-
-    #video {
-       height: fit-content;
-       padding-left: 0px;
-    }
-
-    #video iframe{
-        
-        height: fit-content;
-        width: fit-content;
-        margin-left: 0;
-        margin-right: 0;
-
-        padding: 9px;
-        margin: 0 9% 0% 9%;
-    }
-
-    #sign-up{
-        height: fit-content;
-        font-size: 110%;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 55px;
-        
-    }
-    footer{
-        height: fit-content;
-    }
-    footer h2{
-        margin-left: 15px;
-    }
-    footer #left{
-        width:100%;
-        padding-bottom: 50px;
-    }
-    footer #right{
-        width:100%;
-        padding-bottom: 50px;
-    }
-    footer #center{
-        width:100%;
-        padding-bottom: 150px;
-    }
-    footer h5{
-        bottom: 80px;
-        position: relative;
-        left: 1%;
-        text-align: center;
-    }
-    #to-top{
-        width: 40%;
-    }
-
-    #to-top i {
-        padding-left: 10px;
-    }
-
-    header img{
-        position: absolute;
-        right: 1%;
-    }
-
-    #gallery {
-        height: fit-content;
-        padding-bottom: 20px;
-    }
-    #gallery img {
-        height: 100px;
-    
-    }
-    .page-title{
-        margin-top: 0px;
-        
-    }
-    .page-title h2 {
-        font-size: 200%;
-        padding-top: 30px;
-    }
-    .attractions-section h2{
-        margin-right: 2%;
-    }
-    .slidershow{
-        width: 100%;
-    }
-    .attractions-section p{
-        float: none;
-        width: auto;
-        font-size: 100%;
-        padding: 20px;
-        display: block;
-    }
-} */
 
 /* CSS code for Navbar styling found on W3 schools */
 
@@ -1459,6 +1229,14 @@ nav{
         height: 600px;
     }
 }*/
+@media screen and (width: 768px){
+#cover-text{
+    font-size: 200%;
+    bottom: 100px;
+    right: 15%;
+    padding-right: 9%;
+}
+}
 
 @media screen and (max-width: 768px){
 
