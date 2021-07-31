@@ -602,7 +602,7 @@ input[name="r"]{
     
 }
 #gallery-bg{
-    height:1025px;
+    height:fit-content;
 }
 
 .not-complete{
@@ -895,6 +895,10 @@ nav{
         top:-30px;
         float: right;
     }
+
+    nav{
+        float: none;
+    }
     .container{
         margin: 0px 0px 20px 0px;
     }
@@ -946,6 +950,30 @@ nav{
     #to-top{
         width: 50%;
     }
+
+    .page-title h2{
+        font-size: 200%;
+        padding-top: 10%;
+    }
+    .page-title{
+        margin-top: 0px;
+    }
+    .attractions-section p{
+        float: none;
+        width: auto;
+        clear: both;
+        font-size: 130%;
+        padding: 30px;
+        text-align: justify;
+    }
+    .attractions-section h2{
+        font-size: 190%;
+        margin-right: 30px;
+    }
+    .slidershow{
+        width: 100%;
+    }
+    
 }
 
 
@@ -982,8 +1010,7 @@ nav{
 		float: none;
 		display: block;
 		text-align: left;
-	}
-
+	} 
 	
 }
 
