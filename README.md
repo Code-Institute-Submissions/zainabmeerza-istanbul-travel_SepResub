@@ -144,12 +144,11 @@ Every page has a footer which includes a 'visit istanbul' slogan, quick links to
 <br>
 <br>
 <h2><strong>Home</strong></h2>
-his features a map embedded using GoogleMaps and also a read more/read less button. I want users to read this information only if they want to and not have an overwhelming amount of text on their screen.
-
+The Home page starts with a large hero image with a scenic view of the coast in Istanbul. Below this a section on 'Why you should visit' is included. Thiis section only icludes a single quote in order to be kept short and convinving to users at first glance. Underneath this is the main text content of the home page which introduces the user with the purpose of the site. This section is divided into three columns; the first two columns are filled with text, and the column on the right includes an image of a famous bridge. To let the user know more about Istanbul before going further into browsing the website, two youtube videos are linked below this section using an embedded link from Youtube. Including a video is another way of providing the user with information without overwhelming them with too many words but rather showing them instead. Finally, an interactive map section is also included and this is done by using an embedded link from Google Maps. This allows the users to explore places visually on a map rather than just by reading text. 
 <br>
 <br>
 <h2><strong>Attractions</strong></h2>
-This page consists of the majority of the information on the website. It provides an overview of the most famous spots to visit and the history behind each location. Alongside the text for each location an interative and responsive carousel of images is included to make it more visually appealing to users. The title of this page is an <em>h2</em> element that sits underneath the responsive menu bar. The content on this page is built using h2 and p elements. The images are set to float to the left, and the paragraphs are set to float to the right.
+This page consists of the majority of the information on the website. It provides an overview of the most famous spots to visit and the history behind each location. Alongside the text for each location an interative and responsive carousel of images is included to make it more visually appealing to users. The title of this page is an h2 element that sits underneath the responsive menu bar. The content on this page is built using h2 and p elements. The images are set to float to the left, and the paragraphs are set to float to the right.
 <br>
 <br>
 <h2><strong>Gallery</strong></h2>
