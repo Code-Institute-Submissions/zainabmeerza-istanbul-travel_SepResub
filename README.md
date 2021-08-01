@@ -168,7 +168,6 @@ This project is based on HTML and CSS programming languages. Several technologie
 <h1><strong>Deployment</strong></h1>
 This project was deployed via Gitpod. Using the git commands provided by Gitpod  the code was comitted to git, and then pushed onto GitHub.  It was then deployed onto the web using GitHub Pages.
 <br>
-<br>
 <h2>Deploy on to GitHub Pages -</h2>
 The following steps were carried out in order to deploy this project to GitHub Pages from its GitHub repository:
 <ol>
@@ -181,7 +180,7 @@ The following steps were carried out in order to deploy this project to GitHub P
 <li>A few minutes later, the page URL will be given above the source section which links to the live site. This looks like the following:
 <img src="assets/images/deployment.png">
 </ol>
-<br>
+
 <h2>Run the website locally -</h2>
 TThe forking tool can be used to make changes onto the repository without affecting it. This will make a copy of the repository so that the original one remains unchanged. This is done by:
 <ol>
@@ -189,7 +188,7 @@ TThe forking tool can be used to make changes onto the repository without affect
 <li>Next, 'download ZIP' and extract this ZIP file onto your computer.</li>
 <li>Once the foler is extracted, the index.html file in it can be opened on a browser. </li>
 </ol>
-<br>
+
 <h2>Clone the website -</h2>
 This will clone your working repository onto a local version. This is useful to backup work and can be done by:
 <ol>
@@ -202,7 +201,6 @@ This will clone your working repository onto a local version. This is useful to 
 </ol>
 <br>
 <br>
-
 <h1><strong>Credits</strong></h1>
 <h2><strong>Content</strong></h2>
 The content for this website was obtained from several websites, which are listed below. 
