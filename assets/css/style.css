@@ -1586,9 +1586,9 @@ nav{
     }
     .attractions-section p{
         float: right;
-        width: 40%;
+        width: 50%;
         clear: both;
-        font-size: 130%;
+        font-size: 150%;
         padding: 40px;
         text-align: justify;
     }
@@ -1597,7 +1597,7 @@ nav{
         margin-right: 40px;
     }
     .slidershow{
-        width: 50%;
+        width: 40%;
         height: auto;
     }
     .form-section{
@@ -1618,7 +1618,7 @@ nav{
         right:27%;
     }
     #right-about{
-        padding-top: 888px;
+        padding-top: 849px;
     }
     #why-visit{
         padding-left: 130px;
