@@ -205,22 +205,12 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li>As a freelancing photographer, I would potentially like to feature my photographs of Istanbul to promote my work and gain exposure. </li>
 </ol>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h2><strong>HTML Validation</strong></h2>
+<img src="assets/images/html-errors.png">
+<img src="assets/images/html-warnings.png">
+<h2><strong>CSS Validation</strong></h2>
+<img src="assets/images/css-errors.png">
+<h2><strong>Light House</strong></h2>
 <h1><strong>Deployment</strong></h1>
 This project was deployed via Gitpod. Using the git commands provided by Gitpod  the code was comitted to git, and then pushed onto GitHub.  It was then deployed onto the web using GitHub Pages.
 <br>
