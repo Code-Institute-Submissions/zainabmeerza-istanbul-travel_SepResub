@@ -200,7 +200,6 @@ This will clone your working repository onto a local version. This is useful to 
 <li>Finally press enter and a local clone will be created at the selected location</li>
 </ol>
 <br>
-<br>
 <h1><strong>Credits</strong></h1>
 <h2><strong>Content</strong></h2>
 The content for this website was obtained from several websites, which are listed below. 
@@ -212,7 +211,6 @@ The content for this website was obtained from several websites, which are liste
 <li><a href="https://www.wanderlust.co.uk/content/the-ultimate-guide-to-istanbul/">Wanderlust</a></li>
 <li><a href="https://www.audleytravel.com/turkey/country-guides/guide-to-istanbul">Audley</a></li>
 </ul>
-<br>
 
 <h2><strong>Media</strong></h2>
 All images used in the website across all pages were obtained from <a href="https://unsplash.com/s/photos/istanbul">Unsplash.</a>
@@ -223,7 +221,7 @@ The two videos on the home page were taken from <a href="https://www.youtube.com
 <br>
 The map on the home page is taken from <a href="https://www.google.com/maps/place/%C4%B0stanbul,+Turkey/@41.0055005,28.7319939,10z/data=!3m1!4b1!4m5!3m4!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589"> Google Maps </a> using an embedded <em>iframe</em> link.
 <br>
-<br>
+
 <h2><strong>Code</strong></h2>
 The following resources were used within the code and contributed to parts of the CSS, HTML and JS for this website.
 <ol>
@@ -231,7 +229,7 @@ The following resources were used within the code and contributed to parts of th
 <li>Gallery was created using<a href="https://fancyapps.com/docs/ui/fancybox/"> Fancybox. </a></li>
 <li><a href="https://www.w3.org/WAI/tutorials/forms/labels/">Visually hidden elements</a> for part of the responsive navigation bar.</li>
 </ol>
-<br>
-<br>
+
+
 <h1><strong>Acknowledgements</strong></h1>
 I would like to extend my thanks to my course mentor Guido Cecilio for his feedback and guidance throughout the course of this project. His support and advice during our meetings helped me advance this project into the right direction. 
