@@ -195,6 +195,31 @@ This project is based on HTML and CSS programming languages. Several technologie
 </ul>
 
 <h1><strong>Testing</strong></h1>
+<h2><strong>Testing user stories from UX of README.md</strong></h2>
+<ol>
+<li>As a first time visitor to the site, I would like to be able to navigate eaily throughtout the site and find the relevant information I need. </li>
+<li>As a first time tourist, I would like some reliable recommendations of where I should visit, which restraunts I should go eat in, and where I can accommodate during my stay that fits in with my budget.</li>
+<li>As a returning visitor to the site, I would like to stay updated with the latest events, trips, tours and festivals that are possibly taking place during the time of my visit to Istanbul.</li>
+<li>As a first time traveller to Istanbul, I would like to know some background information as to what I should expect from this city and what it is popular and known for. </li>
+<li>As a business owner, I would potentially be interested in advertising and promoting my service (restraunt, hotel or product etc.) onto the site to potenial customers(tourists) who may visit. </li>
+<li>As a freelancing photographer, I would potentially like to feature my photographs of Istanbul to promote my work and gain exposure. </li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h1><strong>Deployment</strong></h1>
 This project was deployed via Gitpod. Using the git commands provided by Gitpod  the code was comitted to git, and then pushed onto GitHub.  It was then deployed onto the web using GitHub Pages.
