@@ -48,6 +48,7 @@ The website is divided into the following sections listed below:
 <h1><strong>UX</strong></h1>
 
 <h2><strong>Strategy</strong></h2>
+
 <br>
 <br>
 
