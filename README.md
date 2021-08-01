@@ -81,8 +81,18 @@ The information was kept as minimal as possible in order to not overwhelm users,
 <li>As a business owner, I would potentially be interested in advertising and promoting my service (restraunt, hotel or product etc.) onto the site to potenial customers(tourists) who may visit. </li>
 <li>As a freelancing photographer, I would potentially like to feature my photographs of Istanbul to promote my work and gain exposure. </li>
 </ol>
-
+<br>
 <h2><strong>Scope</strong></h2>
+To achieve the desired user & business goals, the following features have been included in this project release:
+<ul>
+<li>A header containing the logo, title and menu bar to easily navigate across the pages.</li>
+<li>A home page which introduces the user to what the website is about.</li>
+<li>Videos that will provide the user with more insight as to what to expect from Istanbul in terms of views, landscapes and culture.</li>
+<li>An interacive map of the city which will highlight the famous places to visit</li>
+<li>A link to a simple subscription form that will update users with the upcoming events through email and a downloadable trave guide brochure.</li>
+<li>Ratings and recommendations of places to eat and stay in.</li>
+<li>A gallery of images that will present users with appealing visuals that would further enourage them to plan their trip.</li>
+<li>A footer containing quick links to the pages of the site, and to the social media links.>
 <br>
 <br>
 <h2><strong>Structure</strong></h2>
