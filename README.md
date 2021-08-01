@@ -48,9 +48,39 @@ The website is divided into the following sections listed below:
 <h1><strong>UX</strong></h1>
 
 <h2><strong>Strategy</strong></h2>
+The strategy approach for this site was to provide reputable trustworthy  content that users would be able to rely on for guidance. Additionally ease of access and simplicity was important to allow users to find the specifc information that they require to help plan their trips. Promoting users to travel to Istanbul and making it on their top list of travel choices was also the aim. 
 
+An essential part is to define who the target users of this website would be,and to consider what features they would like to see.
+
+<strong>The ideal users of this website would be:</strong>
+<ul>
+<li>People (such as tourists) intertested in visiting Istanbul, Turkey. </li>
+<li>Families and groups looking to book a holiday. </li>
+<li>Backpacking travellers.</li>
+<li>First time travellers to Turkey. </li>
+</ul>
+
+<strong>This project will help these users by:</strong>
+<ul>
+<li>Providing a clear and concise guide that would be easy for them to navigate and focuses on important details.</li>
+<li>Showing a selection of beautiful photos that will motivate and encourage travellers to visit, and help promote the city and make it seem as the more desirable choice. </li>
+<li>Providing a list of the best sightseeing destinations and a brief background of these places.</li>
+<li>Giving the users recommencedation of where to eat and stay during their trip.</li>
+<li>Allowing them to subscribe to a newsletter that will keep them updated with the latest events and email them a downloadable travel guide brochure</li>
+</ul>
+
+The information was kept as minimal as possible in order to not overwhelm users, but instead focus more on making it seem more visually appealing. Hence including several forms of media (pop-up modal images, videos, maps, carousels) that they could interact with rather than just lots of text.
 <br>
-<br>
+
+<strong>User stories:</strong>
+<ol>
+<li>As a first time visitor to the site, I would like to be able to navigate eaily throughtout the site and find the relevant information I need. </li>
+<li>As a first time tourist, I would like some reliable recommendations of where I should visit, which restraunts I should go eat in, and where I can accommodate during my stay that fits in with my budget.</li>
+<li>As a returning visitor to the site, I would like to stay updated with the latest events, trips, tours and festivals that are possibly taking place during the time of my visit to Istanbul.</li>
+<li>As a first time traveller to Istanbul, I would like to know some background information as to what I should expect from this city and what it is popular and known for. </li>
+<li>As a business owner, I would potentially be interested in advertising and promoting my service (restraunt, hotel or product etc.) onto the site to potenial customers(tourists) who may visit. </li>
+<li>As a freelancing photographer, I would potentially like to feature my photographs of Istanbul to promote my work and gain exposure. </li>
+</ol>
 
 <h2><strong>Scope</strong></h2>
 <br>
