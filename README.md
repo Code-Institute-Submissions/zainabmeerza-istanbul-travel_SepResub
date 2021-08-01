@@ -132,11 +132,23 @@ To stand out when hovering over links (such as icons for social media and naviga
 <br>
 <br>
 <img src="assets/images/color-pallete.png" >
-<br>
-<br>
+
+
 <h1><strong>Features</strong></h1>
+<h2><strong>Header</strong></h2>
+The website consists of four completed pages; Home, Attractions and Gallery, Form. It also consists of two uncompleted pages; Lodging and Dining. The header of the wesbite includes a logo and menu bar on the top of every page with a consistnet style. This will allow the user to efficiently move around and access the relevant information they require via the menu. The navigation links remain active when in use and this is indicated by a yellow underline. Additionally this menu bar is responsive across various devices. When being viewed on smaller devices such as mobile phones, the menu is collapsed into a hamburger icon that can be expaned when clicked on. The title in the header is also linked to the home page.
 <br>
+<h2><strong>Footer</strong></h2>
+Every page has a footer which includes a 'visit istanbul' slogan, quick links to the other pages of the site (to avoid scrolling to the top), alternatively there is also an arrow icon at the bottom of the page that is linked to scroll to the top of the page when clicked on. Social media icons are displayed which are linked to the blog's social media accounts.
 <br>
+<h2><strong>Home</strong></h2>
+<br>
+<h2><strong>Attractions</strong></h2>
+<br>
+<h2><strong>Gallery</strong></h2>
+<br>
+<h2><strong>Subscribe</strong></h2>
+
 <h1><strong>Technologies Used</strong></h1>
 This project is based on HTML and CSS programming languages. Several technologies and tools were used to enable a functional design. These are listed below.
 <ul>
