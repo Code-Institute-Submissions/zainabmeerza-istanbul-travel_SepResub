@@ -92,6 +92,7 @@ To achieve the desired user & business goals, the following features have been i
 <li>Ratings and recommendations of places to eat and stay in.</li>
 <li>A gallery of images that will present users with appealing visuals that would further enourage them to plan their trip.</li>
 <li>A footer containing quick links to the pages of the site, and to the social media links.</li>
+</ul>
 <br>
 <h2><strong>Structure</strong></h2>
 This website is made up of 6 pages in total (however only 4 have been completed with content. It includes a responsive navigation bar at the top that allows users to easily navigate across their section of interest. The flow of the website is in the following order; Home to introduce the users to the purpose of the site, next, attractions to sight see that cannot be passed, then places to stay in, restraunts to eat in, and finally ends it off with a gallery of images and a subsription form for users who are interseted in future events.
