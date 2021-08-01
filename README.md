@@ -138,16 +138,28 @@ To stand out when hovering over links (such as icons for social media and naviga
 <h2><strong>Header</strong></h2>
 The website consists of four completed pages; Home, Attractions and Gallery, Form. It also consists of two uncompleted pages; Lodging and Dining. The header of the wesbite includes a logo and menu bar on the top of every page with a consistnet style. This will allow the user to efficiently move around and access the relevant information they require via the menu. The navigation links remain active when in use and this is indicated by a yellow underline. Additionally this menu bar is responsive across various devices. When being viewed on smaller devices such as mobile phones, the menu is collapsed into a hamburger icon that can be expaned when clicked on. The title in the header is also linked to the home page.
 <br>
+<br>
 <h2><strong>Footer</strong></h2>
 Every page has a footer which includes a 'visit istanbul' slogan, quick links to the other pages of the site (to avoid scrolling to the top), alternatively there is also an arrow icon at the bottom of the page that is linked to scroll to the top of the page when clicked on. Social media icons are displayed which are linked to the blog's social media accounts.
 <br>
+<br>
 <h2><strong>Home</strong></h2>
+his features a map embedded using GoogleMaps and also a read more/read less button. I want users to read this information only if they want to and not have an overwhelming amount of text on their screen.
+
+<br>
 <br>
 <h2><strong>Attractions</strong></h2>
+This page consists of the majority of the information on the website. It provides an overview of the most famous spots to visit and the history behind each location. Alongside the text for each location an interative and responsive carousel of images is included to make it more visually appealing to users. The title of this page is an <em>h2</em> element that sits underneath the responsive menu bar. The content on this page is built using h2 and p elements. The images are set to float to the left, and the paragraphs are set to float to the right.
+<br>
 <br>
 <h2><strong>Gallery</strong></h2>
-<br>
+ This page follows the same header and title format as the previous pages to keep the consitency. The main body is made up of a gallery modal pop-up images consiting of 30 pictures retrieved from Unsplash with their respective captions on each photo. This gallery was created using FancyBox libaries that were linked to my HTML code. The gallery is aligned to center the page and is responsive across different devices.
+ <br>
+ <br>
 <h2><strong>Subscribe</strong></h2>
+At the bottom of every page, right above the footer a sign up section had been included. This section has the heading 'Sign up to recieve a travel guide brochure' with a 'subscribe' button underneath. This button links to the form page. The form page includes a simple signup form that allows the user to subscribe to a regular newsletter from the travel blog and recieve a downloadable travel guide brochure via email. The form is made up of 2 text inputs for the name, and one email input. They have all been set to required, therefore the form is not completed until all fields have been filled out. The background on this page provides a sceneic image of the city that does not interfere with the styling of the form. This form is also responsive across different devices.
+<br>
+<br>
 
 <h1><strong>Technologies Used</strong></h1>
 This project is based on HTML and CSS programming languages. Several technologies and tools were used to enable a functional design. These are listed below.
