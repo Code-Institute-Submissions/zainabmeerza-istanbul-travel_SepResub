@@ -101,15 +101,13 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li><a href="https://fonts.google.com/specimen/Oswald#pairings" target="_blank">Google Fonts</a> - Used to style the website fonts. </li>
 <li><a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome Development Tools</a> - Used to test every stage whilst building the website, to help find and fix bugs within the code and test the responsiveness of the pages.</li>
 <li><a href="https://www.youtube.com/" target="_blank">Youtube</a> - To provide an embedded link to the videos on the home page.</li>
-<li><a href="" target="_blank">Google Maps</a> - To provide an embedded link to the map on the home page.</li>
+<li><a href="https://www.google.com/maps/place/%C4%B0stanbul,+Turkey/@41.0039643,28.4517462,9z/data=!3m1!4b1!4m5!3m4!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589" target="_blank">Google Maps</a> - To provide an embedded link to the map on the home page.</li>
 <li><a href="https://www.flaticon.com/free-icons/turkey" target="_blank">Flat Icon</a> - Used to select a favicon for the website. </li>
 <li><a href="https://coolors.co/" target="_blank">Coloors</a> - To select a desired colour scheme for the website.</li>
-<li><a href="" target="_blank">W3C Markup Validation Service</a> - This tool was used to check the markup validity of the HTML Web documents of this project.</li>
-<li><a href="" target="_blank">W3C CSS Validation Service</a> - This tool was used to check the validity of the CSS documents of this project. </li>
-<li><a href="" target="_blank">W3C CSS Validation Service</a></li>
+<li><a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> - This tool was used to check the markup validity of the HTML Web documents of this project.</li>
+<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> - This tool was used to check the validity of the CSS documents of this project. </li>
 <li><a href="http://ami.responsivedesign.is/" target="_blank">Am I Responsive</a> - Was used to generate a repsonive image; displaying how the website would look on different devices. </li>
-<li><a href="" target="_blank">WAVE Web Accessibility Evaluation Tool</a> - Tool used to detect any accessibility issues within the website to help further improve it.</li>
-
+<li><a href="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</a> - Tool used to detect any accessibility issues within the website to help further improve it.</li>
 </ul>
 <br>
 <br>
