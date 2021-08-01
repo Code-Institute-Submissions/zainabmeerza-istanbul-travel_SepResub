@@ -206,11 +206,34 @@ This project is based on HTML and CSS programming languages. Several technologie
 </ol>
 
 <h2><strong>HTML Validation</strong></h2>
+I used <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation</a> to check the validity of my HTML documents. Several issues were identified using this tool.
+<h3>Four errors were identified, these were:</h3>
 <img src="assets/images/html-errors.png">
+<h3>Three warnings were identified, these were:</h3>
 <img src="assets/images/html-warnings.png">
+And so the HTML was adjusted accordingly to improve on the errors. 
 <h2><strong>CSS Validation</strong></h2>
+I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation</a> to check the validity of my CSS code. Several issues were identified using this tool.
+<h3>Six errors were identified, these were:</h3>
 <img src="assets/images/css-errors.png">
+And so the HTML was adjusted accordingly to improve on the errors. 
 <h2><strong>Light House</strong></h2>
+Lighthouse is a testing tool featured as part of Google Chrome developer tools. It is used to test the performance of the website. Initially my Gallery and Attractions page achieved a very low score in performance and this was because of the unecissarily high quality of images that I was using. Hence to improve the performance I replaced the images with smaller size and this improved my performance score immensely. I also added some meta tags to improve the SEO performance. The final results I achieved are all above 90 for all scores (apart from the best practices on the home page, this was due to the 3 iframe elements I used with embedded links).
+<br>
+<h3>Results of light house testing on the home page:</h3>
+<img src="assets/images/lighthouse-index.png">
+<h3>Results of light house testing on the attractions page:</h3>
+<img src="assets/images/lighthouse-attractions.png">
+<h3>Results of light house testing on the Lodging page:</h3>
+<img src="assets/images/lighthouse-lodging.png">
+<h3>Results of light house testing on the Gallery page:</h3>
+<img src="assets/images/lighthouse-gallery.png">
+<h3>Results of light house testing on the Form page:</h3>
+<img src="assets/images/lighthouse-form.png">
+<h2><strong>WAVE Web Accessibility Evaluation</strong></h2>
+I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is a web accessibility evaluation tool. The results obtained are shown below. This showed that the color contrast on the project was weak and requires improvement.
+<img src="assets/images/WAVE-test.png">
+<br>
 <h1><strong>Deployment</strong></h1>
 This project was deployed via Gitpod. Using the git commands provided by Gitpod  the code was comitted to git, and then pushed onto GitHub.  It was then deployed onto the web using GitHub Pages.
 <br>
