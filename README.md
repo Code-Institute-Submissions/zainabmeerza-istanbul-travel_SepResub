@@ -8,4 +8,4 @@
 
 <a href="">View the live website in GitHub Pages</a>
 
-<img src="assets/images/am-i-responsive.png" width="1976" height="1190" alt="screenshot of the responsiveness of the website" >
+<img src="assets/images/am-i-responsive.png" width="1976px" height="1190px" alt="screenshot of the responsiveness of the website" >
