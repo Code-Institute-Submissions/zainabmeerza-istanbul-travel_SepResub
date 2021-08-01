@@ -12,7 +12,7 @@
 
 <p>This image is produced using the tool from <a href="http://ami.responsivedesign.is/#" target="_blank">Am I Responsive</a></p>
 
-<h2><strong>The business goals of this website are the following:</strong></h2>
+<h3><strong>The business goals of this website are the following:</strong></h3>
     <ul>
         <li></li>
         <li></li>
@@ -21,11 +21,11 @@
         <li></li>
     </ul>
 
-<h2><strong>The customer goals of this website are the following:</strong></h2>
+<h3><strong>The customer goals of this website are the following:</strong></h3>
  <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Search for a reliable and updated source which provide users with trustworthy recommendations on places to visit.</li>
+        <li>Have a compelling </li>
+        <li>To find outt more information on the city of Istanbul, and the variety of activites that are available to do there. </li>
+        <li>To view </li>
         <li></li>
 </ul>
