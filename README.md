@@ -27,22 +27,21 @@ The website is divided into the following sections listed below:
 
 <h3><strong>The business goals of this website are the following:</strong></h3>
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>To allow hotels and resorts to advertise and promoting their accomadtion services. </li>
+        <li>To allow local Turkish businesses to promote their goods and products to tourists.</li>
+        <li>To allow restraunts and other hospitality services to advertise their services to potential visitors.</li>
+        <li>To provide a platform for freelancing photographers to share their photos of Istanbul in order to gain exposure.</li>
+        <li>To promote festivals, tours, concerts and shows that may be upcoming in Istanbul.</li>
     </ul>
 
 <h3><strong>The customer goals of this website are the following:</strong></h3>
  <ul>
         <li>Search for a reliable and updated source which provide users with trustworthy recommendations on places to visit.</li>
-        <li>Have a compelling </li>
-        <li>To find outt more information on the city of Istanbul, and the variety of activites that are available to do there. </li>
-        <li>To view </li>
-        <li></li>
+        <li>Be inspired, encouraged and excited to plan a trip to Istanbul.</li>
+        <li>To find out more information on the city of Istanbul, and the variety of activites that are available to do there. </li>
+        <li>To be able to sign up to recieve upcoming events, offers, and latest news via a newsletter.</li>
+        <li>To find a selection of trustworthy recommendations for restraunts, hotels and markets.</li>
 </ul>
-
 <br>
 <br>
 <h1><strong>UX</strong></h1>
@@ -137,6 +136,9 @@ To stand out when hovering over links (such as icons for social media and naviga
 <img src="assets/images/color-pallete.png" >
 <br>
 <br>
+<h1><strong>Features</strong></h1>
+<br>
+<br>
 <h1><strong>Technologies Used</strong></h1>
 This project is based on HTML and CSS programming languages. Several technologies and tools were used to enable a functional design. These are listed below.
 <ul>
@@ -162,7 +164,6 @@ This project is based on HTML and CSS programming languages. Several technologie
 <h1><strong>Testing</strong></h1>
 <br>
 <br>
-<h1><strong>Features</strong></h1>
 <h1><strong>Deployment</strong></h1>
 This project was deployed via Gitpod. Using the git commands provided by Gitpod  the code was comitted to git, and then pushed onto GitHub.  It was then deployed onto the web using GitHub Pages.
 <br>
