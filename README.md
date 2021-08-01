@@ -42,8 +42,7 @@ The website is divided into the following sections listed below:
         <li>To be able to sign up to recieve upcoming events, offers, and latest news via a newsletter.</li>
         <li>To find a selection of trustworthy recommendations for restraunts, hotels and markets.</li>
 </ul>
-<br>
-<br>
+
 <h1><strong>UX</strong></h1>
 
 <h2><strong>Strategy</strong></h2>
@@ -80,7 +79,7 @@ The information was kept as minimal as possible in order to not overwhelm users,
 <li>As a business owner, I would potentially be interested in advertising and promoting my service (restraunt, hotel or product etc.) onto the site to potenial customers(tourists) who may visit. </li>
 <li>As a freelancing photographer, I would potentially like to feature my photographs of Istanbul to promote my work and gain exposure. </li>
 </ol>
-<br>
+
 <h2><strong>Scope</strong></h2>
 To achieve the desired user & business goals, the following features have been included in this project release:
 <ul>
@@ -93,11 +92,10 @@ To achieve the desired user & business goals, the following features have been i
 <li>A gallery of images that will present users with appealing visuals that would further enourage them to plan their trip.</li>
 <li>A footer containing quick links to the pages of the site, and to the social media links.</li>
 </ul>
-<br>
+
 <h2><strong>Structure</strong></h2>
 This website is made up of 6 pages in total (however only 4 have been completed with content. It includes a responsive navigation bar at the top that allows users to easily navigate across their section of interest. The flow of the website is in the following order; Home to introduce the users to the purpose of the site, next, attractions to sight see that cannot be passed, then places to stay in, restraunts to eat in, and finally ends it off with a gallery of images and a subsription form for users who are interseted in future events.
-<br>
-<br>
+
 <h2><strong>Skeleton</strong></h2>
 
 The website consits of six pages, but only four out of six were managed to be completed. The completed pages are; Home (introduces the user into the purpose of the website), Attractions (lists the top must sight-seeing locations that the user should visit), Gallery (displays a variety of images to provide the user with some insight as to what they should expect from the city), and Form (which includes a newsletter subscription form).
@@ -122,7 +120,6 @@ The website consits of six pages, but only four out of six were managed to be co
 <a href="https://github.com/zainabmeerza/istanbul-travel/blob/main/assets/images/wireframes/Form%20Page%20-%20Desktop.png" target="_blank" >Form - Desktop View</a> 
 <br>
 <a href="https://github.com/zainabmeerza/istanbul-travel/blob/main/assets/images/wireframes/Form%20Page%20-%20Mobile.png" target="_blank" >Form - Mobile View</a> 
-<br>
 <br>
 
 <h2><strong>Surface</strong></h2>
@@ -160,11 +157,9 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li><a href="http://ami.responsivedesign.is/" target="_blank">Am I Responsive</a> - Was used to generate a repsonive image; displaying how the website would look on different devices. </li>
 <li><a href="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</a> - Tool used to detect any accessibility issues within the website to help further improve it.</li>
 </ul>
-<br>
-<br>
+
 <h1><strong>Testing</strong></h1>
-<br>
-<br>
+
 <h1><strong>Deployment</strong></h1>
 This project was deployed via Gitpod. Using the git commands provided by Gitpod  the code was comitted to git, and then pushed onto GitHub.  It was then deployed onto the web using GitHub Pages.
 <br>
@@ -199,7 +194,7 @@ This will clone your working repository onto a local version. This is useful to 
 <li>Type <strong>'git clone'</strong> in the terminal, and past the URL link from step 3. </li>
 <li>Finally press enter and a local clone will be created at the selected location</li>
 </ol>
-<br>
+
 <h1><strong>Credits</strong></h1>
 <h2><strong>Content</strong></h2>
 The content for this website was obtained from several websites, which are listed below. 
