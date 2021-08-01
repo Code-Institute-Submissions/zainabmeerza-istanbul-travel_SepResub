@@ -159,6 +159,19 @@ This page consists of the majority of the information on the website. It provide
 At the bottom of every page, right above the footer a sign up section had been included. This section has the heading 'Sign up to recieve a travel guide brochure' with a 'subscribe' button underneath. This button links to the form page. The form page includes a simple signup form that allows the user to subscribe to a regular newsletter from the travel blog and recieve a downloadable travel guide brochure via email. The form is made up of 2 text inputs for the name, and one email input. They have all been set to required, therefore the form is not completed until all fields have been filled out. The background on this page provides a sceneic image of the city that does not interfere with the styling of the form. This form is also responsive across different devices.
 <br>
 <br>
+<h1><strong>Features to Implement in the future:</strong></h1>
+Due to limited time I was unable to include content in the lodging and dining pages as I planned to do so. Furthermore, due to my limited skills and scope of knowledge, there are several features and widgets I would hope to also implement in a future release of this project. These inlude:
+<ul>
+<li>Embedded weather widgets that would let the user know about the current weather conditions in Istanbul.</li>
+<li>A lodging section filled with a list of hotels, hostels, resorts, B&B's that can be sorted according to their rating, availability, room type, number of guests, and price range. It will also include images and customer reviews. </li>
+<li>A dining section filled with a list of restraunts, cafes, bakeries that can be sorted according to their rating and region. It will also include images and customer reviews. </li>
+<li>An FAQ section with commonly asked questions to address some tips and advice to users planning on travelling to Istanbul.</li>
+<li>A page advertising the latest and upcoming events in Istanbul such as concerts and festivals. This will include adverts from several business companies.</li>
+<li>A page that includes a list of experiences, such as day trips, cruises, ferry rides, museum visits, etc. This will also inlcude ticket information, prices, booking information, and opening times. </li>
+<li>A section with pre-planned itentaires that can be downloaded as a PDF file and printed out for users to follow.</li>
+<li>The option to chose the language of the site. As this is a travel website, customers from a wide range of backgrounds, cultures and countries are expected to be browsing, and hence being able to tailor the language to their needs can help improve their accessibility.</li>
+<li>The option to change currency options when viewing ticket prices or hotel prices.</li>
+</ul>
 
 <h1><strong>Technologies Used</strong></h1>
 This project is based on HTML and CSS programming languages. Several technologies and tools were used to enable a functional design. These are listed below.
