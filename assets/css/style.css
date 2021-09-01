@@ -1603,3 +1603,7 @@ nav{
         font-size: 200%;
     }
 }
+
+.hide {
+    display: none;
+}
