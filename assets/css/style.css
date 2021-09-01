@@ -188,9 +188,11 @@ header img{
     text-align: center;
 }
 
+
 #video iframe{
     display: inline-block;
     padding: 20px;
+    border: 0;
 }
 
 /* map section */
