@@ -615,7 +615,7 @@ input[name="r"]{
 }
 
 nav{
-    display: inline-block;
+    /*display: inline-block;*/
     float: right;
 }
 
