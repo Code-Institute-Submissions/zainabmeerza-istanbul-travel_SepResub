@@ -148,7 +148,7 @@ header img{
 #right-about{
     width: 33%;
     float: right;
-    padding-top: 475px;
+    padding-top: 535px;
     background: url('../images/center_intro.jpeg') no-repeat center center;
     background-size: cover;
 }
@@ -1360,8 +1360,8 @@ nav{
     }
     #right-about{
         float: right;
-        
-        padding-top: 455px;
+        padding-top: 525px;
+        /*padding-top: 455px;*/
     }
     #center-about p{
         margin-right: 30px;
@@ -1451,7 +1451,8 @@ nav{
         right:27%;
     }
     #right-about{
-        padding-top: 849px;
+        /*padding-top: 849px;*/
+        padding-top: 535px;
     }
     #why-visit{
         padding-left: 130px;
@@ -1551,7 +1552,8 @@ nav{
         font-size: 130%;
     }
     #right-about {
-       padding-top: 890px;
+       /*padding-top: 890px;*/
+       padding-top: 750px;
     }
     #video iframe{
         height: 950px;
