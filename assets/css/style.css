@@ -1607,3 +1607,8 @@ nav{
 .hide {
     display: none;
 }
+
+
+#right-about img{
+    height: fit-content;
+}
