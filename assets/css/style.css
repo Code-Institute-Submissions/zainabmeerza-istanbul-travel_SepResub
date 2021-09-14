@@ -226,7 +226,7 @@ header img{
 }
 #sign-up a{
     text-decoration: none;
-    font: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #fcfff7;
     font-weight: bold;
     text-transform: uppercase;
